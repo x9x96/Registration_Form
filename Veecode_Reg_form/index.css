@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is the main section */
+#main{
+    margin: 10px;
+    padding: 10px;s
+}
+.main-container{
+    border: 3px solid tomato;
+    background-color: beige;
+    border-width: 20px;
+}
+/* This is the header section */
+.heading{
+    margin-top: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+}
+.heading h1{
+    margin-top: 15px;
+    padding-top: 0px;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-right: 45%;
+}
+.heading p{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 18.5%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-left: 0%;
+    padding-left: 0px;
+}
+
+/* This is the information section */
+#student-info{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+#h2-tag{
+    margin-bottom: 20px;
+}
+#name-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+#first-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+#middle-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+#last-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+#info-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+}
+.personal-info{
+    padding-right: 125px;
+}
+#date-preview{
+    width: 355%;
+    padding: 10px;
+    font-weight: bold
+}
+#student-id{
+    width: 275%;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+/* This is the Address section */
+#address{
+    margin-left: 50px;
+}
+#add-ress{
+    margin: 40px 0 20px 0;
+}
+#street-preview{
+    width: 87.5%;
+    padding: 10px;
+    font-weight: bold;
+}
+#area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#state{
+    padding-right: 454px;
+}
+
+#city-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+#state-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+#country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#country-coded{
+    padding-right: 454px;
+}
+#country-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+#zipcode-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* This is the email section */
+#contact-info{
+    margin-left: 50px;
+}
+#con-tact{
+    margin: 40px 0 20px 0;
+}
+#info-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contact-portion{
+    padding-right: 454px;
+}
+#email-preview{
+    width: 265%;
+    padding: 10px;
+    font-weight: bold;
+}
+#blank{
+    width: 260%;
+    padding: 10px;
+}
+
+/* These are the courses section */
+#courses{
+    margin-left: 50px;
+}
+#cous{
+    margin: 40px 0 20px 0;
+}
+span{
+    color: red;
+}
+#record{
+    border: 1px solid black;
+    width: 89%;
+    padding-top: 10px;
+}
+#rec-list{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#add-record{
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(231, 226, 226);
+    border: none;
+}
+#course-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#lv-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#la-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#date-preview-two{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset ;
+}
+#none{
+    width: 36%;
+    padding: 10px;
+    border: outset;
+}
+
+/* This is the comment section */
+#com-ment{
+    margin-top: 20px;
+}
+#comment{
+    width: 87.5%;
+    height: 100px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: start;
+    padding-top: 0%;
+}
+
+/* This is the Request section */
+#r-btn{
+    margin-top: 20px;
+    height: 20vh;
+}
+button{
+    width: 89%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(25, 142, 238);
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+}
+
+
+
+/* Styles for preview.html page */
+.preview-container{
+    background-color: rgb(196, 196, 245);
+    
+
+}
+#another-first-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-middle-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-last-name{
+    width: 150%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-date-preview{
+    width: 355%;
+    padding: 10px;
+    font-weight: bold
+}
+
+#another-student-id{
+    width: 275%;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+#another-street-preview{
+    width: 87.5%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-city-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-state-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-country-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-zipcode-preview{
+    width: 250%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-email-preview{
+    width: 265%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#another-blank{
+    width: 260%;
+    padding: 10px;
+}
+
+#another-course-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#another-lv-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#another-la-preview{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset;
+}
+
+#another-date-preview-two{
+    width: 15%;
+    padding: 10px;
+    font-weight: bold;
+    border: outset ;
+}
+
+#another-none{
+    width: 36%;
+    padding: 10px;
+    border: outset;
+}
+
+#another-comment{
+    width: 87.5%;
+    height: 100px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: start;
+    padding-top: 0%;
+}
+
+/* Styles for phone view */
+@media (max-width: 1100px) {
+    .main-container, .main{
+        color: rgb(235, 58, 9);
+        width: 100%;
+    }
+    .heading{
+        color: rgb(235, 58, 9);
+        width: 100%;
+    }
+    #student-info, #student-content{
+        color: rgb(235, 58, 9);
+        width: 100%;
+    } 
+}

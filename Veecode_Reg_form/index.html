@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veecode Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="main-container">
+        <div id="main">
+            
+            <!-- This is the header section -->
+            
+            <div class="heading">
+                <img src="logo-px.png" alt="logo image" class="logo">
+                <h1>Student Registration Form</h1>
+                <p>
+                    Fill out the form to apply for the training courses.
+                    You can consider your apllication accepted after you receive a
+                    <br> comfirmation email.
+                </p>
+            </div>
+            <div id="formData">
+            <!-- This is the Information section -->
+            <section id="student-info">
+                <div id="student-content">
+                    <h2 id="h2-tag">Student Information</h2>
+                    <form action="student" id="student-form">
+                        <div id="name-content">
+                            <div class="names-preview">
+                                <input type="text" id="first-name" placeholder="First Name" required>
+                            </div>
+                            <div class="names-preview">
+                                <input type="text" id="middle-name" placeholder="Middle Name" required>
+                            </div>
+                            <div class="names-preview">
+                                <input type="text" id="last-name" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div id="info-2">
+                            <div class="personal-info">
+                                <label for="dob">Date of Birth</label> <br>
+                                <input type="date" id="date-preview" required>
+                            </div>
+                            <div class="personal-info">
+                                <label for="blank"></label> <br>
+                                <input type="text" id="student-id" placeholder="Student ID" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- This is Address section -->
+
+            <section id="address">
+                <h2 id="add-ress">Address</h2>
+                <form action="">
+                    <input type="text" name="streetAddress" id="street-preview" placeholder="Street Address" required>
+                    <div id="area">
+                        <div id="city">
+                            <input type="text" name="city" id="city-preview" placeholder="City"required>
+                        </div>
+                        <div id="state">
+                            <input type="text" name="stateProvince" id="state-preview" placeholder="State / Province" required>
+                        </div>
+                    </div>
+                    <div id="country">
+                        <div id="country-code">
+                            <input type="text" name="country" id="country-preview" placeholder="Country" required>
+                        </div>
+                        <div id="country-coded">
+                            <input type="text" name="zipCode" id="zipcode-preview" placeholder="ZIP Code" required>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <!-- This is the Email Section -->
+            <section id="contact-info">
+                <h2 id="con-tact">Contact Information</h2>
+                <form action="contact">
+                    <div id="info-contact">
+                        <div id="email-pre">
+                            <input type="email" name="email" id="email-preview" placeholder="E-mail" required>
+                        </div>
+                        <div id="contact-portion">
+                            <input type="text" name="blank" id="blank">
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <!-- This is the Courses Section -->
+            <section id="courses">
+                <h2 id="cous">Courses<span>*</span></h2>
+                <div id="record">
+                    <div id="rec-list">
+                        <input type="text" name="Addrecord" id="add-record" placeholder="+ Add new record" disabled>
+                    </div>
+                    <div id="course-section">
+
+                        <!-- This is the Courses options -->
+                        <select name="course-Type" id="course-preview" required>
+                            <option value="course">Courses</option>
+                            <option value="course"></option>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Backend">Backend</option>
+                            <option value="Stack">Full Stack</option>
+                            <option value="Design">UI UX Design</option>
+                            <option value="Analysis">Data Analysis</option>
+                            <option value="Management">Project Management</option>
+                            <option value="Security">Cyber Security</option>
+                        </select>
+
+                        <!-- This is the level options -->
+                        <select name="lv-Type" id="lv-preview" required>
+                            <option value="lv">Level</option>
+                            <option value="lv"></option>
+                            <option value="Beg">Beginner</option>
+                            <option value="Mid">Mid level</option>
+                            <option value="Int">Intermidiate</option>
+                            <option value="Pro">Professional</option>
+                        </select>
+
+                        <!-- This is the language options -->
+                        <select name="la-Type" id="la-preview">
+                            <option value="la">Language</option>
+                            <option value="la"></option>
+                            <option value="htm">HTML & CSS</option>
+                            <option value="jav">JavaScript</option>
+                            <option value="rea">React Js</option>
+                            <option value="nod">Node Js</option>
+                            <option value="pyt">Python</option>
+                            <option value="php">PHP</option>
+                            <option value="mys">My SQL</option>
+                        </select>
+
+                        <select name="start" id="date-preview-two" required>
+                            <option value="startDate">Start Date</option>
+                        </select>
+                        <input type="date" name="empty" id="none">
+                    </div>
+                </div>
+
+                <!-- This is the Comment Section -->
+                <div id="com-ment">
+                    <input type="text" name="comment" id="comment" placeholder="Comments" required>
+                </div>
+
+                <!-- This is the submit button -->
+                <div id="r-btn">
+                   <button class="btn-sumit" onclick="sendRequest()">SEND REQUEST</button>
+                </div>
+            </section>
+        </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
